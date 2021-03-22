@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 下記間違え"meta"書き忘れ -->
+<meta charset="UTF-8">
+<title>お問い合わせ | KUJIRA cafe</title>
+<link rel="stylesheet" type="text/css" href="./CSS/style.css" >
+</head>
+<body>
+<div class="wrapper">
+<!-- タイトルロゴ -->
+<h1><a href="./index.html"><img src="./images/logo.png" width="217" height="89" alt="KUJIRAcafe"></a></h1>
+<!-- バー表示 -->
+<ul class="bar">
+	<li><a href="./index.html">ホーム</a></li>
+	<li><a href="./about.html">店舗案内</a></li>
+	<li><a href="./access.html">アクセス</a></li>
+	<li><a href="./menu.html">メニュー</a></li>
+	<li><a href="./contact.html">お問い合わせ</a></li>
+</ul>
+<!-- ヘッダー -->
+<h2>お問い合わせ</h2>
+<!-- ヘッダーここまで -->
+<form action="./result.html" method="get">
+<div class="contact"><label>お問い合わせの種類<br>
+<select menu="お問い合わせ種類">
+	<option value="予約について">パーティの予約について</option>
+	<option value="一般問い合わせ">一般的な問い合わせ</option>
+</select></label></div>
+<div class="contact"><label>初めてのお問い合わせですか？</label><br>
+	<label><input type="radio" name="初めての問い合わせ" value="はい" checked>はい</input></label>
+	<label><input type="radio" name="初めての問い合わせ" value="いいえ">いいえ</input></label>
+</div>
+<div class="contact"><label>当カフェをお知りになったきっかけは？</label><br>
+	<label><input type="checkbox"  name="きっかけ" value="知り合い">知り合いの紹介で</input></label>
+	<label><input type="checkbox"  name="きっかけ" value="雑誌サイト">雑誌・Webサイトで見て</input></label>
+</div>
+<div class="contact"><label>お問い合わせの件名<br>
+	<input type="text" name="件名" value="お問い合わせ"></input></label>
+</div>
+<div class="contact"><label>お問い合わせの具体的な内容<br>
+	<textarea name="問い合わせ内容"></textarea></label>
+</div>
+<div class="submit">
+	<input type="submit" name="送信" value="送信"></input>
+</div>
+</form>
+<!-- フッター -->
+<div class="footer">
+	<p>&copy;Copyright KUJIRA cafe. All rights reserved.</p>
+</div>
+</body>
+</div>
+</html>
